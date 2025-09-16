@@ -71,21 +71,27 @@ tsconfig.json
 
 ## Running Tests
 **Run all tests (headless)**
+
     npm run test
 
 **Run UI tests only**
+
     npm run test:ui
 
 **Run API tests only**
+
     npm run test:api
 
 **Run in interactive mode**
+
     npm run open
 
 **Serve mock frontend**
+
     npm run serve
 
 **Clean test results**
+
     npm run clean
 
 
@@ -94,9 +100,11 @@ tsconfig.json
 **Pass tokens per environment:**
 
 **DEV**
+
 npm run test --env token=dev-token-123
 
 **STAGING**
+
 npm run test --env token=qa-token-123
 
 **Or use different config files:**
@@ -109,16 +117,21 @@ npm run test --config-file .env.qa
 **After running tests:**
 
 **Merge reports:**
+
 npx mochawesome-merge cypress/reports/*.json > cypress/reports/report.json
 
 **Generate HTML:**
+
 npx marge cypress/reports/report.json --reportDir cypress/reports/html
 
 **Open final report:**
+
 cypress/reports/html/index.html
 
 **Screenshots & Videos**
+
 Screenshots: cypress/screenshots/
+
 Videos: cypress/videos/
 
 
