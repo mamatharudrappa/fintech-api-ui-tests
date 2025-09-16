@@ -5,17 +5,29 @@ It covers **API tests, UI tests, test utilities, reporting, and environment mana
 
 
 ## Project Structure
+
 cypress/
+
     e2e/    # Test specs (API + UI)
+    
     fixtures/   # Static test data (testData.json)
+    
     support/    # Custom commands, helpers, assertions
+    
     results/    # Test results & reports
+    
 .env.ci
+
 .env.development
+
 .env.qa    # environment configs
+
 cypress.config.ts   # Cypress configuration
+
 package.json
+
 README.md
+
 tsconfig.json
 
 
@@ -52,7 +64,7 @@ tsconfig.json
    git clone https://github.com/mamatharudrappa/fintech-api-ui-tests.git
    cd fintech-api-ui-tests
 
-2. Install dependencies:
+3. Install dependencies:
 
     npm install
 
