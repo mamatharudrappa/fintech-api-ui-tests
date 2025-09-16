@@ -7,7 +7,7 @@ if (fs.existsSync(envFile)) dotenv.config({ path: envFile });
 
 export default defineConfig({
   e2e: {
-    baseUrl: process.env.BASE_URL || "http://localhost:8080",
+    baseUrl: process.env.BASE_URL || "http://localhost:5000",
     setupNodeEvents(on, config) {
       // reporter config for mochawesome
       require("cypress-mochawesome-reporter/plugin")(on);
