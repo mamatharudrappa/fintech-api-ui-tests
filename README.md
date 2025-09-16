@@ -8,13 +8,13 @@ It covers **API tests, UI tests, test utilities, reporting, and environment mana
 
 cypress/
 
-    e2e/    # Test specs (API + UI)
+------e2e/    # Test specs (API + UI)
     
-    fixtures/   # Static test data (testData.json)
+------fixtures/   # Static test data (testData.json)
     
-    support/    # Custom commands, helpers, assertions
+------support/    # Custom commands, helpers, assertions
     
-    results/    # Test results & reports
+------results/    # Test results & reports
     
 .env.ci
 
