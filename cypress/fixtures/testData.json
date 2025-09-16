@@ -1,0 +1,8 @@
+{
+  "seed_user": {
+    "userId": "123",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "recipientId": "456"
+  }
+}
